@@ -10,8 +10,8 @@ namespace CsAbstractFactory
     {
         static void Main(string[] args)
         {
-            IEnemyFactory aquaticFactory = new AquaticEnemyFactory();
-            IEnemyFactory flyingFactory = new FlyingEnemyFactory();
+            AbstractFactoryEnemy aquaticFactory = AbstractFactoryEnemy.getFactory(Factories.AQUATIC);
+            AbstractFactoryEnemy flyingFactory = AbstractFactoryEnemy.getFactory(Factories.FLYING);
             IBasicEnemy enemy1 = aquaticFactory.CreateBasicEnemy();
             IBasicEnemy enemy2 = flyingFactory.CreateBasicEnemy();
             IAdvancedEnemy enemy3 = aquaticFactory.CreateAdvancedEnemy();

@@ -45,13 +45,13 @@
   <ItemGroup>
     <Compile Include="AdvancedAquaticEnemy.cs" />
     <Compile Include="AquaticEnemyFactory.cs" />
+    <Compile Include="Factories.cs" />
     <Compile Include="FlyingEnemyFactory.cs" />
     <Compile Include="IAdvancedEnemy.cs" />
     <Compile Include="AdvancedFlyingEnemy.cs" />
     <Compile Include="BasicAquaticEnemy.cs" />
     <Compile Include="BasicFlyingEnemy.cs" />
-    <Compile Include="Class1.cs" />
-    <Compile Include="IEnemyFactory.cs" />
+    <Compile Include="AbstractFactoryEnemy.cs" />
     <Compile Include="IBasicEnemy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

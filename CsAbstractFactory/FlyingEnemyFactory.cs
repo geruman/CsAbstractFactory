@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace CsAbstractFactory
 {
-    public class FlyingEnemyFactory : IEnemyFactory
+    public class FlyingEnemyFactory : AbstractFactoryEnemy
     {
-        public IAdvancedEnemy CreateAdvancedEnemy()
+        public override IAdvancedEnemy CreateAdvancedEnemy()
         {
             return new AdvancedFlyingEnemy();
         }
 
-        public IBasicEnemy CreateBasicEnemy()
+        public override IBasicEnemy CreateBasicEnemy()
         {
             return new BasicFlyingEnemy();
         }

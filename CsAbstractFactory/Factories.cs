@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CsAbstractFactory
 {
-    class Class1
+    public enum Factories
     {
+        FLYING,
+        AQUATIC
     }
 }

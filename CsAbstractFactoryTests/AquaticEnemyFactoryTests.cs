@@ -11,7 +11,7 @@ namespace CsAbstractFactory.Tests
     [TestClass()]
     public class AquaticEnemyFactoryTests
     {
-        private IEnemyFactory factory;
+        private AbstractFactoryEnemy factory;
         [TestInitialize()]
         public void Initialize()
         {
